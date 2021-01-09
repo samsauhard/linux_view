@@ -39,7 +39,7 @@ def search_and_click(ua,sleep_time,top5,proxy,proxies,sleep_after):
 	options1.add_argument('--proxy-server=%s'%(proxy['ip'] + ':' + proxy['port']))
 	#options1.add_argument('user-agent=%s'%ua.random)
 
-	driver = webdriver.Chrome(r'C:\Users\Sachin\Downloads\YouTube-View-Bot-master\YouTube-View-Bot-master\1\chromedriver1.exe',options=options1)
+	driver = webdriver.Chrome(r'.\chromedriver1',options=options1)
 	#options.add_experimental_option( "prefs",{'profile.managed_default_content_settings.javascript': 2})
 
 	
@@ -48,7 +48,7 @@ def search_and_click(ua,sleep_time,top5,proxy,proxies,sleep_after):
 	
 		#driver.get('https://www.dailymotion.com/video/x7yfnh3')
 	try:  
-		driver.get('https://dai.ly/x7yi2nq')
+		driver.get('https://www.dailymotion.com/video/x7ykkc0')
 		#time.sleep(3)
 		#mm = driver.find_element_by_class_name('top-matter')
 		#mm = driver.find_element_by_class_name('md')
@@ -56,7 +56,7 @@ def search_and_click(ua,sleep_time,top5,proxy,proxies,sleep_after):
 		#j = w.find_element_by_tag_name('a')
 		#time.sleep(5)
 		#j.click()
-		time.sleep(95)
+		time.sleep(55)
 		#driver.get("https://helpx.adobe.com/flash-player.html")
 		#driver.get('https://www.youtube.com/watch?v=UUwJbWtijNY')
 		## Step 2  Once your page is loaded in chrome, go to the URL where lock sign is there visit the 

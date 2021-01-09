@@ -39,7 +39,7 @@ def search_and_click(ua,sleep_time,top5,proxy,proxies,sleep_after):
     options1.add_argument('--proxy-server=%s'%(proxy['ip'] + ':' + proxy['port']))
     #options1.add_argument('user-agent=%s'%ua.random)
 
-    driver = webdriver.Chrome(r'C:\Users\Sachin\Downloads\YouTube-View-Bot-master\YouTube-View-Bot-master\8\chromedriver8.exe',options=options1)
+    driver = webdriver.Chrome(r'.\chromedriver8.exe',options=options1)
     #options.add_experimental_option( "prefs",{'profile.managed_default_content_settings.javascript': 2})
 
     
